@@ -1,0 +1,12 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "single_trait_insert_per_statement": true,
+        "binary_operator_spaces": {
+            "operators": {
+                "=": "align_single_space_minimal",
+                "=>": "align_single_space_minimal"
+            }
+        }
+    }
+}
