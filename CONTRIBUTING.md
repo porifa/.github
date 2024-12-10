@@ -8,7 +8,7 @@ We love your input! We want to make contributing to this project as easy and tra
 - Becoming a maintainer
 
 ## We Develop with Github
-We use github to host code, to track issues and feature requests, as well as accept pull requests.
+We use GitHub to host code, track issues and feature requests, and accept pull requests.
 
 ## We Use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow), So All Code Changes Happen Through Pull Requests
 Pull requests are the best way to propose changes to the codebase (we use [Github Flow](https://docs.github.com/en/get-started/quickstart/github-flow)). We actively welcome your pull requests:
@@ -44,6 +44,18 @@ People *love* thorough bug reports. I'm not even kidding.
 
 * 4 spaces for indentation rather than tabs
 * You can try running `vendor/bin/pint` for style unification
+
+## Commit Message Structure
+
+- chore: Minor tasks, such as updating dependencies or build tools, no production code changes.
+- docs: Changes to documentation.
+- feat:	A new feature for the user (e.g. adding a new button or page).
+- fix: A bug fix for the user (e.g., correcting a broken dropdown).
+- reform: A change in existing feature to improve it (e.g. changing UI).
+- refactor: Restructuring code for clarity or efficiency without altering behavior (e.g. renaming variables for readability, extracting logic into a method).
+- style: Code formatting or style changes without altering behavior (e.g. renaming variable in terms of casing, snake_case to camelCase).
+- test:	Adding or improving tests (unit, integration, etc.), no production code changes.
+
 
 ## License
 By contributing, you agree that your contributions will be licensed under its MIT License.
